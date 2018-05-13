@@ -1,0 +1,8 @@
+[
+    {
+        "id": 1,
+        "name": "Alice",
+        "image" : "../images/alice.png",
+        "alt": "Alice"
+    }
+]
