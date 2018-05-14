@@ -1,51 +1,65 @@
 [
-    {
-        "id": 1,
-        "name": "Morgana",
-        "image" : "../images/morgana.png",
-        "alt": "Morgana",
-        "clicked": false
-    },
-    {
-        "id": 2,
-        "name": "Nami",
-        "image" : "../images/nami.png",
-        "alt": "Nami",
-        "clicked": false
-    },
-    {
-        "id": 3,
-        "name": "Lulu",
-        "image" : "../images/lulu.png",
-        "alt": "Lulu",
-        "clicked": false
-    },
-    {
-        "id": 4,
-        "name": "Janna",
-        "image" : "../images/janna.png",
-        "alt": "Janna",
-        "clicked": false
-    },
-    {
-        "id": 5,
-        "name": "Rakan",
-        "image" : "../images/rakan.png",
-        "alt": "Rakan",
-        "clicked": false
-    },
-    {
-        "id": 6,
-        "name": "Braum",
-        "image" : "../images/braum.png",
-        "alt": "Braum",
-        "clicked": false
-    },
-    {
-        "id": 7,
-        "name": "Thresh",
-        "image" : "../images/thresh.png",
-        "alt": "thresh",
-        "clicked": false
-    }
+  {
+    "id": 1,
+    "name": "Morgana",
+    "image": "../images/morgana.png",
+    "alt": "Morgana",
+    "clicked": false
+  },
+  {
+    "id": 2,
+    "name": "Nami",
+    "image": "../images/nami.png",
+    "alt": "Nami",
+    "clicked": false
+  },
+  {
+    "id": 3,
+    "name": "Lulu",
+    "image": "../images/lulu.png",
+    "alt": "Lulu",
+    "clicked": false
+  },
+  {
+    "id": 4,
+    "name": "Janna",
+    "image": "../images/janna.png",
+    "alt": "Janna",
+    "clicked": false
+  },
+  {
+    "id": 5,
+    "name": "Rakan",
+    "image": "../images/rakan.png",
+    "alt": "Rakan",
+    "clicked": false
+  },
+  {
+    "id": 6,
+    "name": "Braum",
+    "image": "../images/braum.png",
+    "alt": "Braum",
+    "clicked": false
+  },
+  {
+    "id": 7,
+    "name": "Thresh",
+    "image": "../images/thresh.png",
+    "alt": "thresh",
+    "clicked": false
+  },
+  {
+    "id": 8,
+    "name": "Alistar",
+    "image": "../images/alistar.png",
+    "alt": "Alistar",
+    "clicked": false
+  },
+  {
+    "id": 9,
+    "name": "Blitzcrank",
+    "image": "../images/blitzcrank.png",
+    "alt": "Alistar",
+    "clicked": false
+  }
 ]
