@@ -16,11 +16,12 @@ class App extends Component {
 
   afterClicked = id => {
     alert("a" + id);
-//put the map in render on this page? so that you can call it again here
+    
+  
   };
 
   render() {
-    return <Card clicked={this.afterClicked} people={this.randomCards()} />;
+    return <Card clicked={this.afterClicked} people={cards} />;
   }
 }
 
