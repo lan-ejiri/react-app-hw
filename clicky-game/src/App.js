@@ -1,27 +1,51 @@
 import React, { Component } from "react";
+import cards from "./cards.json";
+import "./components/card/card.css";
 
 import Card from "./components/card/card.js";
-import cards from "./cards.json";
 
 class App extends Component {
   state = {
     cards: cards
   };
 
-  //this shuffles the object
-  randomCards = () =>
-    this.state.cards.sort(function(a, b) {
+  shuffleCards = () => {
+    let newCards = this.state.cards.sort(function(a, b) {
       return 0.5 - Math.random();
     });
 
-  afterClicked = id => {
-    alert("a" + id);
-    
-  
+    this.setState({
+      cards: newCards
+    });
+  };
+
+  afterClicked = () => {
+    this.shuffleCards();
+    this.loadCards();
+    alert("J")
+  };
+
+  loadCards = () => {
+    return (
+      <div>
+        {this.state.cards.map(card => {
+          return (
+            <Card
+              key={card.name}
+              src={card.image}
+              className="cardimage cardshape"
+              alt={card.name}
+              id={card.id}
+              onClick={this.afterClicked}
+            />
+          );
+        })}
+      </div>
+    );
   };
 
   render() {
-    return <Card clicked={this.afterClicked} people={cards} />;
+    return this.loadCards();
   }
 }
 
